@@ -1,0 +1,479 @@
+*{
+  padding:0;
+  margin:0;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);-webkit-tap-highlight-color: transparent;
+}
+
+a{
+	text-decoration: none;
+	color: black
+}
+
+h1{
+	font-family: MS PGothic,Arial,Hiragino Kaku Gothic ProN,Osaka,sans-serif;
+}
+p,td,div{
+	font-family: 'ヒラギノ角ゴ ProN W3', Helvetica, sans-serif;
+}
+
+body.whole{
+	background-color: rgb(250,250,250);
+}
+
+@media (min-width: 768px){
+	div.container{
+		width: 480px;
+		position: absolute;
+		left: 50%;
+		margin-left: -240px;
+	}
+
+}
+
+@media (min-width: 1200px){
+
+}
+
+
+div.nav{
+	background-color: rgb(247,85,0);
+	height: 60px;
+	width: 100%;
+	line-height: 60px;
+	text-align: center;
+	box-shadow: 0px 7.5px 5px rgba(0, 0, 0, 0.12), 0px 5px 2.5px rgba(0, 0, 0, 0.18);
+}
+
+h1.nav{
+	margin: 0px;
+	font-size: 1.25rem;
+	color: white;
+}
+
+.border_bottom{
+	border-bottom: 1px solid rgba(0, 0, 0, 0.24);
+}
+.border_top{
+	border-top: 1px solid rgba(0, 0, 0, 0.24);
+}
+
+
+/*Button CSS*/
+div.bt_back{
+	margin: 20px 10% 20px 10%;
+	background-color: rgb(247,85,0);
+	height: 60px;
+	width: 80%;
+	text-align: center;
+	border-radius: 10px;
+	box-shadow: 5px 5px 2.5px rgba(0, 0, 0, 0.12), 2.5px 2.5px 1.25px rgba(0, 0, 0, 0.18);
+
+}
+
+div.bt_back_in{
+	height: 45px;
+	line-height: 45px;
+	margin: 0 7.5px 0 7.5px;
+	background-color: white;
+	border-radius: 4px;
+	position: relative;
+	top: 7.5px;
+}
+
+
+div.bt_back p{
+	font-size: 1.1rem;
+	color: rgb(247,85,0);
+	position: relative;
+}
+
+div.bt_back_down{
+	background-color: rgba(255,255,255,0.3);
+}
+
+
+div.bt_continue{
+	margin: 20px 10% 20px 10%;
+	background-color: rgb(247,85,0);
+	height: 60px;
+	width: 80%;
+	text-align: center;
+	border-radius: 10px;
+	box-shadow: 5px 5px 2.5px rgba(0, 0, 0, 0.12), 2.5px 2.5px 1.25px rgba(0, 0, 0, 0.18);
+
+}
+
+div.bt_continue_in{
+	height: 45px;
+	line-height: 45px;
+	margin: 0 7.5px 0 7.5px;
+	background-color: rgb(247,85,0);
+	border-radius: 4px;
+	position: relative;
+	top: 7.5px;
+}
+
+
+div.bt_continue p{
+	font-size: 1.1rem;
+	color: white;
+	position: relative;
+}
+
+div.bt_continue_down{
+	background-color: rgba(255,255,255,1);
+}
+
+div.bt_continue_down p{
+	color: rgb(247,85,0);
+}
+
+/* End button CSS*/
+
+
+
+/* Form CSS*/
+div.form_border{
+	border-radius: 10px;
+	box-shadow: 5px 5px 2.5px rgba(0, 0, 0, 0.12), 2.5px 2.5px 1.25px rgba(0, 0, 0, 0.18);
+	border: 1px solid rgba(0, 0, 0, 0.24);
+	margin: 20px 5% 0px 5%;
+	width: 90%;
+	background-color: white;
+}
+
+div.form_head{
+	line-height: 50px;
+	width: 100%;
+}
+
+p.form_head{
+	padding: 5px 0 0 7%;
+	font-size: 0.9rem;
+}
+
+div.form_high{
+	height: 90px;
+	padding: 0 10% 0 10%;
+	font-size: 0.8rem;
+}
+
+div.form_high_des{
+	height: 30px;
+	line-height: 30px;
+	font-size: 0.8rem;
+}
+
+div.form_high_con{
+	height: 60px;
+	line-height: 60px;
+	font-size: 0.8rem;
+}
+
+div.form_mid{
+	height: 70px;
+	line-height: 70px;
+	padding: 0 10% 0 10%;
+	font-size: 0.8rem;
+}
+
+div.form_mid_des{
+	height: 30px;
+	line-height: 30px;
+	font-size: 0.8rem;
+}
+
+div.form_mid_con{
+	height: 40px;
+	line-height: 40px;
+	font-size: 0.8rem;
+}
+
+div.form_short{
+	height: 50px;
+	line-height: 50px;
+	font-size: 0.8rem;
+	padding: 0 10% 0 10%;
+}
+
+.tip_font{
+	font-size: 0.6rem;
+}
+
+
+/*End form css*/
+
+
+
+/*Select page CSS*/
+div.home_top{
+	height: 70px;
+	margin: 45px 5% 0px 5%;
+	box-shadow: 5px 5px 2.5px rgba(0, 0, 0, 0.12), 2.5px 2.5px 1.25px rgba(0, 0, 0, 0.18);
+	border: 1px solid rgba(0, 0, 0, 0.24);
+	background-color: white;
+}
+
+span.home_am_num{
+	font-size: 1.35em;
+}
+
+div.home_am{
+	height: 40px;
+	line-height: 50px;
+	margin: 12.5px 20% 0px 7%;
+	width: 80%;
+	border-bottom: 1px solid rgba(0,0,0,0.5);
+	font-size: 1.1em;
+}
+
+div.table_border{
+	border-radius: 10px;
+	box-shadow: 5px 5px 2.5px rgba(0, 0, 0, 0.12), 2.5px 2.5px 1.25px rgba(0, 0, 0, 0.18);
+	border: 1px solid rgba(0, 0, 0, 0.24);
+	margin: 20px 5% 0px 5%;
+	width: 90%;
+	background-color: white;
+}
+
+div.home_th{
+	line-height: 50px;
+	width: 100%;
+}
+
+p.home_th{
+	padding: 5px 0 0 7%;
+	font-size: 1em;
+}
+
+div.home_content{
+	line-height: 70px;
+}
+
+
+div.home_content_touching{
+	background-color: rgba(210,210,210,0.5);
+}
+
+
+p.home_txt{
+	width: 45%;
+	display: inline-block;
+	font-size: 1em;
+}
+
+
+img.home_icon{
+
+	width: 15%;
+	padding: 5px 10% 5px 10%;
+	vertical-align: middle;
+	display: inline-block;
+}
+
+img.home_arrow{
+	width: 3%;
+	display: inline-block;
+	vertical-align: middle;
+	opacity:0.15;
+	filter:alpha(opacity=15);
+
+}
+
+/*End select page CSS*/
+
+
+
+/*Credit card option select*/
+
+div.crd_slt_top{
+	height: 120px;
+	margin: 45px 5% 0px 5%;
+	box-shadow: 5px 5px 2.5px rgba(0, 0, 0, 0.12), 2.5px 2.5px 1.25px rgba(0, 0, 0, 0.18);
+	border: 1px solid rgba(0, 0, 0, 0.24);
+	background-color: white;
+}
+
+div.crd_slt_des{
+	height: 50px;
+	line-height: 50px;
+	padding: 2.5px 2% 0px 7%;
+	font-size: 1em;
+	display: inline-block;
+}
+
+img.crd_slt_arrow{
+	width: 2%;
+	display: inline-block;
+	vertical-align: middle;
+	opacity:0.75;
+	filter:alpha(opacity=75);
+
+}
+
+
+
+div.crd_slt_select_1{
+	display: inline-block;
+	width: 40%;
+}
+
+div.crd_slt_select_1 select{
+	height: 30px;
+	line-height: 30px;
+	width: 90%;
+	font-size: 0.9rem;
+
+}
+
+div.crd_slt_select_1_hid{
+	height: 60px;
+	line-height: 60px;
+	width: 30%;
+}
+
+div.crd_slt_select_1_hid select{
+	height: 30px;
+	line-height: 30px;
+	width: 70%;
+	font-size: 0.9rem;
+}
+
+input.crd_slt_input{
+	margin: 0 10% 0 10%;
+}
+
+div.crd_slt_select_2{
+	height: 80px;
+	line-height: 60px;
+	display: inline-block;
+	width: 80%;
+}
+
+div.crd_slt_select_2 select{
+	height: 40px;
+	line-height: 40px;
+	width: 90%;
+	font-size: 0.9rem;
+
+}
+
+/*Edy*/
+
+// VARIABLES // ============================== //
+$bg-color: #424242;
+$hl-color: #f85500;
+$muted-color: mix(white, $bg-color, 70%);
+$trans-time: 300ms;
+$width: 320px;
+
+*,
+:before,
+:after {
+  box-sizing: border-box;
+}
+
+body {
+  background: $bg-color;
+}
+
+// FORM // ============================== //
+form {
+  width: $width;
+  margin: 45px auto;
+  
+  h1 {
+    font-size: 3em;
+    font-weight: 300;
+    text-align: center;
+    color: $hl-color;
+  }
+  h5 {
+    text-align: center;
+    text-transform: uppercase;
+    color: $muted-color;
+  }
+  hr.sep {
+    background: $hl-color;
+    box-shadow: none;
+    border: none;
+    height: 2px;
+    width: 25%;
+    margin: 0px auto 45px auto;
+  }
+  .emoji {
+    font-size: 1.2em;
+  }
+}
+
+.group {
+  position: relative;
+  margin: 45px 0;
+}
+
+// INPUTS // ============================== //
+textarea {
+  resize: none;
+}
+
+input,
+textarea {
+  background: none;
+  color: $muted-color;
+  font-size: 18px;
+  padding: 10px 10px 10px 5px;
+  display: block;
+  width: $width;
+  border: none;
+  border-radius: 0;
+  border-bottom: 1px solid $muted-color;
+  &:focus {
+    outline: none;
+  }
+  &:focus ~ label,
+  &:valid ~ label {
+    top: -14px;
+    font-size: 12px;
+    color: $hl-color;
+  }
+  &:focus ~ .bar:before {
+    width: $width;
+  }
+}
+
+input[type="password"] {
+  letter-spacing: 0.3em;
+}
+
+label {
+  color: $muted-color;
+  font-size: 16px;
+  font-weight: normal;
+  position: absolute;
+  pointer-events: none;
+  left: 5px;
+  top: 10px;
+  transition: $trans-time ease all;
+}
+
+.bar {
+  position: relative;
+  display: block;
+  width: $width;
+  &:before {
+    content: '';
+    height: 2px;
+    width: 0;
+    bottom: 0px;
+    position: absolute;
+    background: $hl-color;
+    transition: $trans-time ease all;
+    left: 0%;
+  }
+}
+
+
+
+
+
+
