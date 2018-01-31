@@ -368,7 +368,11 @@ div.crd_slt_select_2 select{
           box-sizing: border-box;
 }
 
-
+@media (max-width: 640px) {
+  #edy_info{
+    height:110px;
+  }
+}
 
 .group {
   position: relative;
@@ -440,6 +444,12 @@ label{
 /* Suica */
 #suica_conf_info{
   height:250px;
+}
+
+@media (max-width: 640px) {
+  #suica_info{
+    height:110px;
+  }
 }
 
 /* WebMoney */
