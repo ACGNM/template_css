@@ -433,6 +433,10 @@ label{
   height:200px;
 }
 
+#edy_conf_info{
+  height:170px;
+}
+
 input.bt_continue{
   margin: 20px 10% 20px 10%;
   background-color: rgb(247,85,0);
