@@ -441,6 +441,12 @@ label{
   height:170px;
 }
 
+@media (max-width: 640px) {
+  #edy_conf_info{
+    height:200px;
+  }
+}
+
 /* Suica */
 #suica_conf_info{
   height:250px;
