@@ -441,3 +441,8 @@ label{
 #suica_conf_info{
   height:250px;
 }
+
+/* WebMoney */
+#webmoney_form{
+  height:250px;
+}
