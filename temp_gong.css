@@ -216,7 +216,7 @@ div.home_top{
 }
 
 span.home_am_num{
-  font-size: 1.35em;
+  font-size: 0.9rem;
 }
 
 div.home_am{
@@ -225,7 +225,7 @@ div.home_am{
   margin: 12.5px 20% 0px 7%;
   width: 80%;
   border-bottom: 1px solid rgba(0,0,0,0.5);
-  font-size: 1.1em;
+  font-size: 0.7rem;
 }
 
 div.table_border{
