@@ -436,16 +436,3 @@ label{
 #edy_conf_info{
   height:170px;
 }
-
-input.bt_continue{
-  margin: 20px 10% 20px 10%;
-  background-color: rgb(247,85,0);
-  height: 60px;
-  width: 80%;
-  text-align: center;
-  border-radius: 10px;
-  box-shadow: 5px 5px 2.5px rgba(0, 0, 0, 0.12), 2.5px 2.5px 1.25px rgba(0, 0, 0, 0.18);
-  color: white;
-  font-size: 1.1rem;
-
-}
