@@ -226,6 +226,7 @@ div.home_am{
   width: 80%;
   border-bottom: 1px solid rgba(0,0,0,0.5);
   font-size: 0.7rem;
+  text-align:center;
 }
 
 div.table_border{
