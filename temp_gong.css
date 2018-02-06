@@ -463,3 +463,14 @@ label{
 #webmoney_form{
   height:250px;
 }
+
+
+/* mobile */
+.receipt_form {
+  font-size: 15px; 
+  margin:20px 0px;
+}
+
+.receipt_form li {
+  margin:5px 0px;
+}
