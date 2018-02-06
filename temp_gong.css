@@ -138,6 +138,9 @@ button.bt_back{
   box-shadow: 5px 5px 2.5px rgba(0, 0, 0, 0.12), 2.5px 2.5px 1.25px rgba(0, 0, 0, 0.18);
   border-color: rgb(247,85,0);
   border-width: 8px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }
 
 button.bt_back p{
@@ -175,6 +178,9 @@ button.bt_continue{
   box-shadow: 5px 5px 2.5px rgba(0, 0, 0, 0.12), 2.5px 2.5px 1.25px rgba(0, 0, 0, 0.18);
   border-color: rgb(247,85,0);
   border-width: 8px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }
 
 
