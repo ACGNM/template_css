@@ -146,6 +146,24 @@ button.bt_back p{
   position: relative;
 }
 
+button.bt_back:active{
+  margin: 20px 10% 0px 10%;
+  background-color: white;
+  height: 61px;
+  width: 80%;
+  text-align: center;
+  border-radius: 13px;
+  box-shadow: 5px 5px 2.5px rgba(0, 0, 0, 0.12), 2.5px 2.5px 1.25px rgba(0, 0, 0, 0.18);
+  border-color: rgb(247,85,0);
+  border-width: 8px;
+}
+
+button.bt_back:active p{
+  font-size: 1.1rem;
+  color: rgb(247,85,0);
+  position: relative;
+}
+
 button.bt_back_down{
   margin: 20px 10% 0px 10%;
   background-color: rgba(247,85,0);
@@ -179,6 +197,24 @@ button.bt_continue{
 
 
 button.bt_continue p{
+  font-size: 1.1rem;
+  color: white;
+  position: relative;
+}
+
+button.bt_continue:active{
+  margin: 20px 10% 0px 10%;
+  background-color: rgb(247,85,0);
+  height: 60px;
+  width: 80%;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 5px 5px 2.5px rgba(0, 0, 0, 0.12), 2.5px 2.5px 1.25px rgba(0, 0, 0, 0.18);
+  border-color: rgb(247,85,0);
+  border-width: 8px;
+}
+
+button.bt_continue:active p{
   font-size: 1.1rem;
   color: white;
   position: relative;
