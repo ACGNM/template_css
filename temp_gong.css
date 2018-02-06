@@ -593,3 +593,11 @@ label{
 .receipt_form li {
   margin:5px 0px;
 }
+
+#mobile_receipt_top{
+	height:auto;
+}
+
+#mobile_receipt_am{
+	line-height:auto;
+}
