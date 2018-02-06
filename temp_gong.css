@@ -5,28 +5,28 @@
 }
 
 a{
-  text-decoration: none;
-  color: black
+	text-decoration: none;
+	color: black
 }
 
 h1{
-  font-family: MS PGothic,Arial,Hiragino Kaku Gothic ProN,Osaka,sans-serif;
+	font-family: MS PGothic,Arial,Hiragino Kaku Gothic ProN,Osaka,sans-serif;
 }
 p,td,div{
-  font-family: 'ヒラギノ角ゴ ProN W3', Helvetica, sans-serif;
+	font-family: 'ヒラギノ角ゴ ProN W3', Helvetica, sans-serif;
 }
 
 body.whole{
-  background-color: rgb(250,250,250);
+	background-color: rgb(250,250,250);
 }
 
 @media (min-width: 768px){
-  div.container{
-    width: 480px;
-    position: absolute;
-    left: 50%;
-    margin-left: -240px;
-  }
+	div.container{
+		width: 480px;
+		position: absolute;
+		left: 50%;
+		margin-left: -240px;
+	}
 
 }
 
@@ -36,31 +36,100 @@ body.whole{
 
 
 div.nav{
-  background-color: rgb(247,85,0);
-  height: 60px;
-  width: 100%;
-  line-height: 60px;
-  text-align: center;
-  box-shadow: 0px 7.5px 5px rgba(0, 0, 0, 0.12), 0px 5px 2.5px rgba(0, 0, 0, 0.18);
+	background-color: rgb(247,85,0);
+	height: 60px;
+	width: 100%;
+	line-height: 60px;
+	text-align: center;
+	box-shadow: 0px 7.5px 5px rgba(0, 0, 0, 0.12), 0px 5px 2.5px rgba(0, 0, 0, 0.18);
 }
 
 h1.nav{
-  margin: 0px;
-  font-size: 1.25rem;
-  color: white;
+	margin: 0px;
+	font-size: 1.25rem;
+	color: white;
 }
 
 .border_bottom{
-  border-bottom: 1px solid rgba(0, 0, 0, 0.24);
+	border-bottom: 1px solid rgba(0, 0, 0, 0.24);
 }
 .border_top{
-  border-top: 1px solid rgba(0, 0, 0, 0.24);
+	border-top: 1px solid rgba(0, 0, 0, 0.24);
 }
 
 
 /*Button CSS*/
+div.bt_back{
+	margin: 20px 10% 20px 10%;
+	background-color: rgb(247,85,0);
+	height: 60px;
+	width: 80%;
+	text-align: center;
+	border-radius: 10px;
+	box-shadow: 5px 5px 2.5px rgba(0, 0, 0, 0.12), 2.5px 2.5px 1.25px rgba(0, 0, 0, 0.18);
+
+}
+
+div.bt_back_in{
+	height: 45px;
+	line-height: 45px;
+	margin: 0 7.5px 0 7.5px;
+	background-color: white;
+	border-radius: 4px;
+	position: relative;
+	top: 7.5px;
+}
+
+
+div.bt_back p{
+	font-size: 1.1rem;
+	color: rgb(247,85,0);
+	position: relative;
+}
+
+div.bt_back_down{
+	background-color: rgba(255,255,255,0.3);
+}
+
+
+div.bt_continue{
+	margin: 20px 10% 20px 10%;
+	background-color: rgb(247,85,0);
+	height: 60px;
+	width: 80%;
+	text-align: center;
+	border-radius: 10px;
+	box-shadow: 5px 5px 2.5px rgba(0, 0, 0, 0.12), 2.5px 2.5px 1.25px rgba(0, 0, 0, 0.18);
+
+}
+
+div.bt_continue_in{
+	height: 45px;
+	line-height: 45px;
+	margin: 0 7.5px 0 7.5px;
+	background-color: rgb(247,85,0);
+	border-radius: 4px;
+	position: relative;
+	top: 7.5px;
+}
+
+
+div.bt_continue p{
+	font-size: 1.1rem;
+	color: white;
+	position: relative;
+}
+
+div.bt_continue_down{
+	background-color: rgba(255,255,255,1);
+}
+
+div.bt_continue_down p{
+	color: rgb(247,85,0);
+}
+
 button.bt_back{
-  margin: 0px 10% 20px 10%;
+  margin: 20px 10% 0px 10%;
   background-color: white;
   height: 61px;
   width: 80%;
@@ -71,47 +140,41 @@ button.bt_back{
   border-width: 8px;
 }
 
-div.bt_back_in{
-  height: 45px;
-  line-height: 45px;
-  margin: 0 7.5px 0 7.5px;
-  background-color: white;
-  border-radius: 4px;
-  position: relative;
-  top: 7.5px;
-}
-
-
 button.bt_back p{
   font-size: 1.1rem;
   color: rgb(247,85,0);
   position: relative;
 }
 
-div.bt_back_down{
-  background-color: rgba(255,255,255,0.3);
+button.bt_back_down{
+  margin: 20px 10% 0px 10%;
+  background-color: rgba(247,85,0);
+  height: 61px;
+  width: 80%;
+  text-align: center;
+  border-radius: 13px;
+  box-shadow: 5px 5px 2.5px rgba(0, 0, 0, 0.12), 2.5px 2.5px 1.25px rgba(0, 0, 0, 0.18);
+  border-color: rgb(247,85,0);
+  border-width: 8px;
+}
+
+button.bt_back_down p{
+  font-size: 1.1rem;
+  color: rgb(247,85,0);
+  position: relative;
 }
 
 
 button.bt_continue{
-  margin: 20px 10% 20px 10%;
+  margin: 20px 10% 0px 10%;
   background-color: rgb(247,85,0);
   height: 60px;
   width: 80%;
   text-align: center;
   border-radius: 10px;
   box-shadow: 5px 5px 2.5px rgba(0, 0, 0, 0.12), 2.5px 2.5px 1.25px rgba(0, 0, 0, 0.18);
-
-}
-
-button.bt_continue_in{
-  height: 45px;
-  line-height: 45px;
-  margin: 0 7.5px 0 7.5px;
-  background-color: rgb(247,85,0);
-  border-radius: 4px;
-  position: relative;
-  top: 7.5px;
+  border-color: rgb(247,85,0);
+  border-width: 8px;
 }
 
 
@@ -122,11 +185,21 @@ button.bt_continue p{
 }
 
 button.bt_continue_down{
-  background-color: rgba(255,255,255,1);
+  margin: 20px 10% 0px 10%;
+  background-color: white;
+  height: 60px;
+  width: 80%;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 5px 5px 2.5px rgba(0, 0, 0, 0.12), 2.5px 2.5px 1.25px rgba(0, 0, 0, 0.18);
+  border-color: rgb(247,85,0);
+  border-width: 8px;
 }
 
 button.bt_continue_down p{
-  color: rgb(247,85,0);
+  font-size: 1.1rem;
+  color: white;
+  position: relative;
 }
 
 /* End button CSS*/
@@ -135,230 +208,274 @@ button.bt_continue_down p{
 
 /* Form CSS*/
 div.form_border{
-  border-radius: 10px;
-  box-shadow: 5px 5px 2.5px rgba(0, 0, 0, 0.12), 2.5px 2.5px 1.25px rgba(0, 0, 0, 0.18);
-  border: 1px solid rgba(0, 0, 0, 0.24);
-  margin: 20px 5% 0px 5%;
-  width: 90%;
-  background-color: white;
+	border-radius: 10px;
+	box-shadow: 5px 5px 2.5px rgba(0, 0, 0, 0.12), 2.5px 2.5px 1.25px rgba(0, 0, 0, 0.18);
+	border: 1px solid rgba(0, 0, 0, 0.24);
+	margin: 20px 5% 0px 5%;
+	width: 90%;
+	background-color: white;
 }
 
 div.form_head{
-  line-height: 50px;
-  width: 100%;
+	line-height: 50px;
+	width: 100%;
 }
 
 p.form_head{
-  padding: 5px 0 0 7%;
-  font-size: 0.9rem;
+	padding: 5px 0 0 7%;
+	font-size: 0.9rem;
 }
 
 div.form_high{
-  height: 90px;
-  padding: 0 10% 0 10%;
-  font-size: 0.8rem;
+	height: 90px;
+	padding: 0 10% 0 10%;
+	font-size: 0.8rem;
 }
 
 div.form_high_des{
-  height: 30px;
-  line-height: 30px;
-  font-size: 0.8rem;
+	height: 30px;
+	line-height: 30px;
+	font-size: 0.8rem;
 }
 
 div.form_high_con{
-  height: 60px;
-  line-height: 60px;
-  font-size: 0.8rem;
+	height: 60px;
+	line-height: 60px;
+	font-size: 0.8rem;
 }
 
 div.form_mid{
-  height: 70px;
-  line-height: 70px;
-  padding: 0 10% 0 10%;
-  font-size: 0.8rem;
+	height: 70px;
+	line-height: 70px;
+	padding: 0 10% 0 10%;
+	font-size: 0.8rem;
 }
 
 div.form_mid_des{
-  height: 30px;
-  line-height: 30px;
-  font-size: 0.8rem;
+	height: 30px;
+	line-height: 30px;
+	font-size: 0.8rem;
 }
 
 div.form_mid_con{
-  height: 40px;
-  line-height: 40px;
-  font-size: 0.8rem;
+	height: 40px;
+	line-height: 60px;
+	font-size: 0.8rem;
 }
 
 div.form_short{
-  height: 50px;
-  line-height: 50px;
-  font-size: 0.8rem;
-  padding: 0 10% 0 10%;
+	height: 50px;
+	line-height: 50px;
+	font-size: 0.9rem;
+	padding: 0 10% 0 10%;
 }
 
 .tip_font{
-  font-size: 0.6rem;
+	font-size: 0.6rem;
 }
 
-
+span.am_num{
+  font-size:1.1rem;
+}
 /*End form css*/
 
 
 
-/*Select page CSS*/
+/* page_top */
+/* Home select */
 div.home_top{
-  height: 70px;
-  margin: 45px 5% 0px 5%;
-  box-shadow: 5px 5px 2.5px rgba(0, 0, 0, 0.12), 2.5px 2.5px 1.25px rgba(0, 0, 0, 0.18);
-  border: 1px solid rgba(0, 0, 0, 0.24);
-  background-color: white;
-}
-
-span.home_am_num{
-  font-size: 0.9rem;
+	height: 125px;
+	margin: 40px 5% 0px 5%;
+	box-shadow: 5px 5px 2.5px rgba(0, 0, 0, 0.12), 2.5px 2.5px 1.25px rgba(0, 0, 0, 0.18);
+	border: 1px solid rgba(0, 0, 0, 0.24);
+	background-color: white;
 }
 
 div.home_am{
-  height: 40px;
-  line-height: 50px;
-  margin: 12.5px 20% 0px 7%;
-  width: 80%;
-  border-bottom: 1px solid rgba(0,0,0,0.5);
-  font-size: 0.7rem;
-  text-align:center;
+	height: 40px;
+	line-height: 45px;
+	margin: 12.5px 7% 0px 7%;
+  text-align: center;
+	font-size: 1rem;
 }
 
-div.table_border{
-  border-radius: 10px;
-  box-shadow: 5px 5px 2.5px rgba(0, 0, 0, 0.12), 2.5px 2.5px 1.25px rgba(0, 0, 0, 0.18);
-  border: 1px solid rgba(0, 0, 0, 0.24);
-  margin: 20px 5% 0px 5%;
-  width: 90%;
+span.home_am_num{
+	font-size: 1.5rem;
+  border-bottom: 1px solid rgba(0,0,0,0.5);
+}
+
+div.home_cont_des{
+  margin: 10px 0 0 0;
+  height: 40px;
+  line-height: 40px;
+  width: 100%;
+  font-size: 1rem;
   background-color: white;
+  padding: 0 0 0 7%;
+}
+span.home_cont_des{
+}
+
+/* Page */
+div.page_top{
+  height: 160px;
+	margin: 45px 5% 0px 5%;
+	box-shadow: 5px 5px 2.5px rgba(0, 0, 0, 0.12), 2.5px 2.5px 1.25px rgba(0, 0, 0, 0.18);
+	border: 1px solid rgba(0, 0, 0, 0.24);
+	background-color: white;
+}
+
+div.page_des{
+	height: 50px;
+	line-height: 50px;
+	padding: 2.5px 2% 0px 7%;
+	font-size: 1rem;
+	display: inline-block;
+}
+
+div.page_cont_des{
+  height: 40px;
+  line-height: 40px;
+  font-size: 1rem;
+  background-color: white;
+  padding: 0 0 0 7%;
+}
+span.page_top_des{
+}
+
+div.page_am{
+	height: 40px;
+	line-height: 45px;
+	margin: 12.5px 7% 0px 7%;
+  text-align: center;
+	font-size: 1rem;
+}
+
+span.page_am_num{
+	font-size: 1.5rem;
+  border-bottom: 1px solid rgba(0,0,0,0.5);
+}
+
+img.page_arrow{
+	width: 2%;
+	display: inline-block;
+	vertical-align: middle;
+	opacity:0.75;
+	filter:alpha(opacity=75);
+}
+
+
+/* End page top */
+
+
+/*Home select page CSS*/
+
+div.table_border{
+	border-radius: 10px;
+	box-shadow: 5px 5px 2.5px rgba(0, 0, 0, 0.12), 2.5px 2.5px 1.25px rgba(0, 0, 0, 0.18);
+	border: 1px solid rgba(0, 0, 0, 0.24);
+	margin: 20px 5% 0px 5%;
+	width: 90%;
+	background-color: white;
 }
 
 div.home_th{
-  line-height: 50px;
-  width: 100%;
+	line-height: 50px;
+	width: 100%;
 }
 
 p.home_th{
-  padding: 5px 0 0 7%;
-  font-size: 1em;
+	padding: 5px 0 0 7%;
+	font-size: 1em;
 }
 
 div.home_content{
-  line-height: 70px;
+	line-height: 70px;
 }
 
 
 div.home_content_touching{
-  background-color: rgba(210,210,210,0.5);
+	background-color: rgba(210,210,210,0.5);
 }
 
 
 p.home_txt{
-  width: 45%;
-  display: inline-block;
-  font-size: 1em;
+	width: 45%;
+	display: inline-block;
+	font-size: 1em;
 }
 
 
 img.home_icon{
 
-  width: 15%;
-  padding: 5px 10% 5px 10%;
-  vertical-align: middle;
-  display: inline-block;
+	width: 30%;
+	padding: 5px 7% 5px 7%;
+	vertical-align: middle;
+	display: inline-block;
 }
 
 img.home_arrow{
-  width: 3%;
-  display: inline-block;
-  vertical-align: middle;
-  opacity:0.15;
-  filter:alpha(opacity=15);
+	width: 3%;
+	display: inline-block;
+	vertical-align: middle;
+	opacity:0.15;
+	filter:alpha(opacity=15);
 
 }
 
-/*End select page CSS*/
+/*End home select page CSS*/
 
 
 
 /*Credit card option select*/
-
-div.crd_slt_top{
-  height: 170px;
-  margin: 45px 5% 0px 5%;
-  box-shadow: 5px 5px 2.5px rgba(0, 0, 0, 0.12), 2.5px 2.5px 1.25px rgba(0, 0, 0, 0.18);
-  border: 1px solid rgba(0, 0, 0, 0.24);
-  background-color: white;
-}
-
-div.crd_slt_des{
-  height: 50px;
-  line-height: 50px;
-  padding: 2.5px 2% 0px 7%;
-  font-size: 1em;
-  display: inline-block;
-}
-
-img.crd_slt_arrow{
-  width: 2%;
-  display: inline-block;
-  vertical-align: middle;
-  opacity:0.75;
-  filter:alpha(opacity=75);
-
-}
-
-
-
 div.crd_slt_select_1{
-  display: inline-block;
-  width: 40%;
+	display: inline-block;
+	width: 40%;
 }
 
 div.crd_slt_select_1 select{
-  height: 30px;
-  line-height: 30px;
-  width: 90%;
-  font-size: 0.9rem;
+	height: 30px;
+	line-height: 30px;
+	width: 90%;
+	font-size: 0.9rem;
 
 }
 
 div.crd_slt_select_1_hid{
-  height: 60px;
-  line-height: 60px;
-  width: 30%;
+	height: 60px;
+	line-height: 60px;
+	width: 30%;
 }
 
 div.crd_slt_select_1_hid select{
-  height: 30px;
-  line-height: 30px;
-  width: 70%;
-  font-size: 0.9rem;
+	height: 30px;
+	line-height: 30px;
+	width: 70%;
+	font-size: 0.9rem;
 }
 
 input.crd_slt_input{
-  margin: 0 10% 0 10%;
+	margin: 0 10% 0 10%;
 }
 
 div.crd_slt_select_2{
-  height: 80px;
-  line-height: 60px;
-  display: inline-block;
-  width: 80%;
+	height: 80px;
+	line-height: 60px;
+	display: inline-block;
+	width: 80%;
 }
 
 div.crd_slt_select_2 select{
-  height: 40px;
-  line-height: 40px;
-  width: 90%;
-  font-size: 0.9rem;
-
+	height: 40px;
+	line-height: 40px;
+	width: 90%;
+	font-size: 0.9rem;
 }
+div#credit_date select{
+  height: 25px;
+}
+/* End Credit card option select */
+
 
 /*Edy*/
 
@@ -379,8 +496,6 @@ div.crd_slt_select_2 select{
   position: relative;
   margin:30px 0;
 }
-
-
 
 input.Edy_input{
   background: none;
@@ -464,6 +579,10 @@ label{
   height:250px;
 }
 
+/* Payeasy */
+#payeasy_form{
+  height: 325px;
+}
 
 /* mobile */
 .receipt_form {
